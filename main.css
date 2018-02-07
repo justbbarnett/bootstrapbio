@@ -1,0 +1,102 @@
+body {
+    background-image: url("images/dust.png");
+    padding-bottom: 60px;
+}
+
+.spaced_row {
+    margin-top: 2%;
+    overflow-y: scroll;
+}
+.topborder {
+    border-top; 2px solid grey;
+}
+.navbar-light .navbarbrand {
+    color: white;
+    background-color: teal;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+}
+h2 {
+    padding-bottom: 2%;
+}
+.righttext {
+    text-align: right;
+}
+.main {
+    padding: 20px;
+    margin: 10px 0 2% 0;
+    background-color: white;
+}
+.aboutme {
+    float: left;
+    margin-right: 5px;
+    padding: 5%;
+}
+.text {
+    float: left;
+}
+.floatleft {
+    float: left;
+    margin-right: 5%;
+}
+.pimage {
+    float: left;
+    position: relative;
+    margin: 1%;
+}
+.pimage img{
+    width: 100%;
+}
+.ptext {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15%;
+    background-color: teal;
+    padding: 0 2% 0 2%;
+}
+.ptext h3{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.connect {
+    background-color: white;
+    margin: 10px 0 2% 0;
+    padding: 10px;
+}
+.social {
+    text-decoration: none;
+    padding: 2%;
+    float: left;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+.container {
+    min-height: 100%;
+    position:relative;
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 4px solid teal;
+    text-align: center;
+    width: 100%;
+    color: azure;
+    font-size: 10px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    
+}
